@@ -1,0 +1,166 @@
+#dungeon ,
+#dungeon tr ,
+#dungeon td
+{
+  margin:    0 ;
+  padding:  0 ;
+  border:    0 ;
+}
+
+#dungeon td.square
+{
+  width:    16px ;
+  height:    16px ;
+  background:  black ;
+}
+
+#dungeon td.square div
+{
+  width:    16px ;
+  height:    16px ;
+  background:  url(../images/black50alpha.png) ;
+  display:  none ;
+}
+
+#cursor
+{
+  width:    12px ;
+  height:    12px ;
+  border:    2px solid white ;
+  display:  block ;
+  position:  absolute ;
+  margin-left:  2px ;
+  margin-top:  60px ;
+  top:    0 ;
+  left:    0 ;
+  display:  none ;
+}
+
+#dungeon
+{
+  border:      2px solid gray ;
+}
+
+#dungeon #messages
+{
+  background:    black ;
+  font-family:    Arial, Helvetica, sans-serif ;
+  font-weight:    bold ;
+  font-size:    11px ;
+  color:      white ;
+  padding:    2px ;
+  border-bottom:    2px solid gray ;
+}
+
+#dungeon #msg_2
+{
+  color:      #888 ;
+}
+
+#dungeon #msg_1
+{
+  color:      #444 ;
+}
+
+#dungeon #msg_0
+{
+  color:      #222 ;
+}
+
+#turn-counter
+{
+  position:    absolute ;
+  bottom:      -5px ;
+  left:      4px ;
+  height:      20px ;
+  padding:    3px ;
+  color:      white ;
+  font-family:    Arial, Helvetica, sans-serif ;
+  font-size:    7.5pt ;
+}
+  
+#inventory ,
+#modal
+{
+  border:      2px solid gray ;
+  background:    url(../images/black50alpha.png) ;
+  color:      white ;
+  font-family:    Arial, Helvetica, sans-serif ;
+  font-weight:    bold ;
+  font-size:    11px ;
+  position:    absolute ;
+  top:      16px ;
+  left:      16px ;
+  display:    none ;
+}
+
+#modal
+{
+  top:      32px ;
+  left:      32px ;
+  background:    url(../images/black75alpha.png) ;
+}
+
+#inventory h1
+{
+  font-size:    100% ;
+  margin:      10px ;
+}
+
+#inventory ol
+{
+  margin:      5px 20px 10px ;
+  list-style-position:  outside ;
+}
+
+#inventory li
+{
+  line-height:    1.6em ;
+}
+
+#inventory a ,
+#inventory a:visited ,
+#modal a ,
+#modal a:visited
+{
+  color:      #cff ;
+}
+
+#inventory a.prev
+{
+  float:      left ;
+  display:    inline ;
+  clear:      left ;
+  padding:    10px ;
+}
+
+#inventory a.next
+{
+  float:      right ;
+  display:    inline ;
+  clear:      right ;
+  padding:    10px ;
+}
+
+#inventory span.clear
+{
+  clear:      both ;
+  float:      none ;
+}
+
+#modal h1
+{
+  margin:      10px ;
+}
+
+#modal p
+{
+  margin:      10px ;
+}
+
+#usercontrol
+{
+  position:    absolute ;
+  z-index:    -1 ;
+  top:      0 ;
+}

@@ -1,0 +1,78 @@
+<html>
+ <body>
+  <h2>
+   Javascript Roguelike
+  </h2>
+  <div style="position:relative">
+  <table id="dungeon" cellspacing="0">
+   <tr>
+    <th>Loading...</th>
+   </tr>
+  </table>
+  </div>
+  <script type="text/javascript" src="js/jrr.js"></script>
+
+    <script src="js/item.js"></script>
+    <script src="js/itemcache.js"></script>
+    <script src="js/tohit.js"></script>
+    <script src="js/behaviour.js"></script>
+    <script src="js/attack.js"></script>
+    <script src="js/wandering.js"></script>
+    <script src="js/advance.js"></script>
+    <script src="js/groupbehaviour.js"></script>
+    <script src="js/regroup.js"></script>
+    <script src="js/flee.js"></script>
+    <script src="js/unit.js"></script>
+    <script src="js/monster.js"></script>
+    <script src="js/monstercache.js"></script>
+    <script src="js/usercontrolstate.js"></script>
+    <script src="js/usercontrolopen.js"></script>
+    <script src="js/usercontrolmodaldialog.js"></script>
+    <script src="js/usercontrolselectitem.js"></script>
+    <script src="js/usercontrolpickup.js"></script>
+    <script src="js/usercontrolinventory.js"></script>
+    <script src="js/usercontroldrop.js"></script>
+    <script src="js/usercontrolselecttarget.js"></script>
+    <script src="js/usercontrollook.js"></script>
+    <script src="js/usercontroldefault.js"></script>
+    <script src="js/usercontrol.js"></script>
+    <script src="js/mapdata.js"></script>
+    <script src="js/tile.js"></script>
+    <script src="js/itemdef.js"></script>
+    <script src="js/monsterdef.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/testfov.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/mapmaker.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/test_map.js"></script>
+    <script>
+game = new Game() ;
+//game.loadData( 'js/test_map.js' ) ;
+game.start();
+    </script>
+  <ul>
+   <li>h - West</li>
+   <li>j - South</li>
+   <li>k - North</li>
+   <li>l - East</li>
+   <li>y - NorthWest</li>
+   <li>u - NorthEast</li>
+   <li>b - SouthWest</li>
+   <li>n - SouthEast</li>
+   <li>g or , - Pick up an item you are standing over</li>
+   <li>d - Drop an item you are carrying</li>
+   <li>o - Open/Shut a door (next key specifies direction)</li>
+   <li>x - eXamine a square<ul>
+    <li>Use the same directional keys to move the cursor</li>
+    <li>. - Examine the square under the cursor</li>
+    <li>q - Quit look mode</li></ul></li>
+   <li>i - List inventory<ul>
+    <li>n - Next page</li>
+    <li>p - Previous page</li>
+    <li>q - Close inventory screen</li></ul></li>
+  </ul>
+  <br>
+ </body>
+</html>
